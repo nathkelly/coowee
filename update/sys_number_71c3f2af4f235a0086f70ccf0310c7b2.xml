@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_coowee_issue">x_snc_coowee_issue</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ISS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>nathan.kelly</sys_created_by>
+        <sys_created_on>2016-05-28 23:24:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>71c3f2af4f235a0086f70ccf0310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISS</sys_name>
+        <sys_package display_value="CooWee" source="x_snc_coowee">ffd27a6f4f235a0086f70ccf0310c702</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CooWee">ffd27a6f4f235a0086f70ccf0310c702</sys_scope>
+        <sys_update_name>sys_number_71c3f2af4f235a0086f70ccf0310c7b2</sys_update_name>
+        <sys_updated_by>nathan.kelly</sys_updated_by>
+        <sys_updated_on>2016-05-28 23:24:20</sys_updated_on>
+    </sys_number>
+</record_update>
