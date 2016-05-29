@@ -13,7 +13,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>nathan.kelly</sys_created_by>
         <sys_created_on>2016-05-28 23:23:01</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dc7372af4f235a0086f70ccf0310c747</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_coowee.user</sys_name>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sp_widget">nameSTARTSWITHme^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="me"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2016-05-29 01:26:52</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>nathan.kelly</sys_created_by>
+        <sys_created_on>2016-05-29 01:26:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cdf076b4f635a0086f70ccf0310c703</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="CooWee" source="x_snc_coowee">ffd27a6f4f235a0086f70ccf0310c702</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CooWee">ffd27a6f4f235a0086f70ccf0310c702</sys_scope>
+        <sys_update_name>sys_filter_7cdf076b4f635a0086f70ccf0310c703</sys_update_name>
+        <sys_updated_by>nathan.kelly</sys_updated_by>
+        <sys_updated_on>2016-05-29 01:26:52</sys_updated_on>
+        <table>sp_widget</table>
+        <title>mobile</title>
+        <user display_value="Nathan Kelly">1d5af9d54f47120086f70ccf0310c708</user>
+    </sys_filter>
+</record_update>

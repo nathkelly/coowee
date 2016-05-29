@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>nathan.kelly</sys_created_by>
         <sys_created_on>2016-05-28 23:25:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d604b2af4f235a0086f70ccf0310c7db</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_coowee_article.x_snc_coowee.user</sys_name>

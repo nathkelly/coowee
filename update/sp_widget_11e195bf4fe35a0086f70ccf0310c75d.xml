@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance_menu</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>url,glyph,order,short_description,title</field_list>
+        <has_preview>false</has_preview>
+        <id>coowee-top-list</id>
+        <internal>false</internal>
+        <link/>
+        <name>CooWee Top List</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// populate the 'data' variable
+$sp.getValues(data);
+data.items = $sp.getMenuItems($sp.getValue("sys_id"));]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>nathan.kelly</sys_created_by>
+        <sys_created_on>2016-05-29 10:55:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>11e195bf4fe35a0086f70ccf0310c75d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CooWee Top List</sys_name>
+        <sys_package display_value="CooWee" source="x_snc_coowee">ffd27a6f4f235a0086f70ccf0310c702</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CooWee">ffd27a6f4f235a0086f70ccf0310c702</sys_scope>
+        <sys_update_name>sp_widget_11e195bf4fe35a0086f70ccf0310c75d</sys_update_name>
+        <sys_updated_by>nathan.kelly</sys_updated_by>
+        <sys_updated_on>2016-05-29 11:05:12</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 style="margin-top: 0; margin-bottom: 0">
+      <span ng-if="::data.glyph" class="fa-stack">
+        <i class="fa fa-circle text-{{::data.color}} fa-stack-2x"></i>
+        <i class="fa fa-{{::data.glyph}} fa-stack-1x fa-inverse"></i>
+      </span>
+      <span>{{::data.title}}</span>
+    </h4>
+    <div>{{::data.short_description}}</div>
+  </div>
+
+  <div class="list-group">
+    <a class="list-group-item no-border" href="{{::item.href}}" ng-repeat="item in ::data.items">
+      <i ng-if="::item.glyph" class="fa fa-{{::item.glyph}} m-r-sm"></i>
+      <i ng-if="::!item.glyph" class="fa fa-chevron-right m-r-sm"></i> {{::item.label}}</a>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

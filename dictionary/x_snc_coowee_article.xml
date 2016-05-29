@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Article" max_length="40" name="x_snc_coowee_article" type="collection"/>
+    <element extends="task" label="Article" max_length="40" name="x_snc_coowee_article" sizeclass="2" type="collection">
+        <element label="Content" max_length="65536" name="content" type="html"/>
+    </element>
 </database>

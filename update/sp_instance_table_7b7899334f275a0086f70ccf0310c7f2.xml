@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">d60f0f2b4f635a0086f70ccf0310c776</sp_column>
+        <sp_page/>
+        <sp_widget display_value="CooWee Important Dates">e61819334f275a0086f70ccf0310c725</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>nathan.kelly</sys_created_by>
+        <sys_created_on>2016-05-29 11:24:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7b7899334f275a0086f70ccf0310c7f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CooWee" source="x_snc_coowee">ffd27a6f4f235a0086f70ccf0310c702</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CooWee">ffd27a6f4f235a0086f70ccf0310c702</sys_scope>
+        <sys_update_name>sp_instance_table_7b7899334f275a0086f70ccf0310c7f2</sys_update_name>
+        <sys_updated_by>nathan.kelly</sys_updated_by>
+        <sys_updated_on>2016-05-29 11:25:03</sys_updated_on>
+        <table>x_snc_coowee_important_dates</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+</record_update>
